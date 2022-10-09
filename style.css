@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font: 42.5%;
+}
+
+:root{
+    --primary-color:#660066;
+    --primary-shades:#0d000d;
+    --para-color:#a64da6;
+    --helper-color:#8d1a8d;
+    --white:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+image{
+    display: inline-block;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3,h4{
+    color: var(--helper-color);
+}
+
+.para{
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    /* align-content: center; */
+    color: var(--para-color);
+}
+
+
+
+ 
+/*--------------
+header and navbar
+---------------*/
+
+.header{
+    height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  position: relative;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    font-size: 1rem;
+}
+
+.navbar-list .navbar-btn{
+    padding: 1.2rem 2.4rem;
+    background-color: var(--white);
+    border: 1px solid var(--helper-color);
+    color: var(--helper-color);
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-btn:hover,
+.navbar-btn:active{
+    background-color: var(--helper-color);
+    color: var(--white);
+}
+
+.navbar-btn .l-icon{
+    padding-left: 8px;
+    
+}
+
+
+.navbar-list .navbar-link:hover,
+.navbar-list .navbar-link:active{
+    color: var(--helper-color);
+}
+
+
+.navbar-link{
+    text-transform: uppercase;
+}
+
+
+.section{
+    padding: 9.6rem 0;
+}
+
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2;
+}
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+  }
+
+
+  .grid-two-column {
+
+    padding: 4rem 8rem;
+    display: grid;
+    grid-template-columns: auto auto;
+} 
+
+
+.btn {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: 1.6rem 3.2rem;
+    border-radius: 4rem;
+    background-color: var(--helper-color);
+    color: var(--white);
+    transition: all 0.2s linear;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    transform: scale(1.05);
+  }
+
+  
+  
+  .primary-heading {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  
+
+  .hero-section .para{
+      margin-top: 2rem;
+      margin-bottom: 3.2rem;
+  }
+
+  .navbar-btn .icon{
+    font-size: 3rem;
+    position: relative;
+    /* padding: 6px 0; */
+}
+
+
+
+.header .happy{
+    font-size: 1.6rem;
+    padding-left: 0.6rem;
+}
+

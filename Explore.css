@@ -1,0 +1,20 @@
+
+
+:root{
+    --primary-color:#660066;
+    --primary-shades:#0d000d;
+    --para-color:#a64da6;
+    --helper-color:#8d1a8d;
+    --white:#ffffff;
+}
+
+h5{
+    color: var(--para-color);
+}
+
+.card{
+    padding: 1rem 2rem;
+    max-width: 100%;
+    background-color: #fefcf9;
+}
+
